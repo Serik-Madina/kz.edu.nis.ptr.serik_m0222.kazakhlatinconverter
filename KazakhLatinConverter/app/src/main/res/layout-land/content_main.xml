@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linerLayot1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fon"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:layout_scrollFlags="enterAlways"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TableRow
+            android:id="@+id/tablelayot1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="@dimen/nav_header_height"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tablelayot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:duplicateParentState="false"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:text="                                                                                 "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tablelayot3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tablelayot4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="34dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Button" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button26"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="ә" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="і" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="ң" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="ғ" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:text="Button" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

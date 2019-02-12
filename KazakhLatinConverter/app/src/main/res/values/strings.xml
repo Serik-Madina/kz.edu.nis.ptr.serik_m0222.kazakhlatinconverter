@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kazakh Latin Converter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Латын_әліпбиі_item">Import</string>
+    <string name="Суреттер_item">Суреттер</string>
+    <string name="Менің_сөздерім_item">Менің_сөздерім</string>
+    <string name="Бөлісу_item">Бөлісу</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_item">send_item</string>
+</resources>

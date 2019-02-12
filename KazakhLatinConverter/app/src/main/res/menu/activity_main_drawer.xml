@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Latin_alphabet"
+            android:icon="@drawable/alphabet"
+            android:title="Жаңа қазақ әліпбиі" />
+        <item
+            android:id="@+id/nav_my_words"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/Менің_сөздерім_item" />
+        <item
+            android:id="@+id/nav_pics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/Суреттер_item" />
+    </group>
+
+    <item android:title="Қосымша">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Бөлісу_item"/>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
